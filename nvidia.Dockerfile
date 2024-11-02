@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.1.1-devel-ubuntu22.04
+FROM nvidia/cuda:12.2.2-devel-ubuntu22.04
 ENV HOST 0.0.0.0
 RUN apt-get update && apt-get upgrade -y \
     && apt-get install -y git build-essential portaudio19-dev \
